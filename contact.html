@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Elitevaz Photography</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="top"><img src="logo.png"></img>
+	</div>
+	<br>
+	<!-- A form is going to go here-->
+	<div id="formcontainer">
+		<div id="myinfo">
+			Elitevaz Photography<br>
+			<br>
+			(954) 907-3166<br>
+			<br>
+			<em>elitevazphoto@hotmail.com</em>
+		</div>
+		
+		<div id="form">
+			<form id="form" name="contact">
+				Name   <br><input type="text" size="49"><br>
+				Phone  <br><input type="text" maxlength="10" size="49"><br>
+				Email  <br><input type="text" size="49"><br>
+				Comments <br><textarea rows="10" cols="50"></textarea>
+				<p><button type="submit" onclick="submission()" value="Submit">Submit</button>
+				<button type="reset">Clear form</button>
+			</form>
+			
+			<script language="Javascript">
+				function submission() {
+					window.alert("Your message has been sent");
+					document.getElementById("form").submit();
+					}
+			</script>
+		</div>
+	</div>
+	<div id="navigation">
+		<a href="about.html">back</a>
+		<a href="#top">Top</a>
+	</div>
+</body>
+</html>

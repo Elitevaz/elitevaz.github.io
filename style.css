@@ -1,0 +1,60 @@
+
+#top{
+	text-align: center;
+	
+	}
+
+@media screen and (min-height: 768px){	
+	#formcontainer{
+		position: relative;
+		height: 800px;
+		}
+	}
+#myinfo{
+	
+	position: absolute;
+	left: 35%;
+	top: 40%;
+	}
+#form {
+	position: absolute;
+	right: 20%;
+	top: 40%;
+	
+	}
+	
+button {
+	background-color: lightgrey;
+	}
+	
+table {
+	text-align: center;
+	}
+	
+td {
+	padding: 20px;
+	}
+	
+#gallery {
+	width: 100%;
+	text-align: center;
+	}
+	
+#navigation {
+	font-family: "Verdana";
+	font-size: 25;
+	text-align: center;
+	}
+	
+#about {
+	text-align: center;
+	}
+	
+#aboutp {
+	font-family: "Verdana";
+	font-size: 25;
+	text-align: center;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	}
